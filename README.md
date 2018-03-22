@@ -10,4 +10,10 @@
 ## Details
 Abstract functionality for caching.
 
+### Traits
+- [`GetCachedCapableTrait`][GetCachedCapableTrait] - Retrieves a cached value by key from self. Supports default value or
+value generation. Very useful for memoization. Allows specifying a TTL, if the underlying storage medium supports that.
+
 [Dhii]: https://github.com/Dhii/dhii
+
+[GetCachedCapableTrait]:                            src/GetCachedCapableTrait.php
